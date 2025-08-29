@@ -26,5 +26,7 @@
 4. What is **Event Delegation** in JavaScript? Why is it useful?
 ** যেমন! তুমি প্রধান শিক্ষক তুমি যদি প্রতিটি ছাত্রকে আলাদা আলাদা করে ডাকতে চাও, তাহলে তোমাকে অনেকবার ডাকতে হবে।
 কিন্তু যদি তুমি শিক্ষককে একবার বলো, "যে কেউ হাত তুললে তুমি আমার কাছে খবর দিও" তাহলে শুধু শিক্ষককে দেখলেই হলো।
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
+
+5. What is the difference between **preventDefault() and stopPropagation()** methods?
+**preventDefault() কাজ করে form submit করলে default behavior হলো page reload হওয়া। আর েএটা এ রিলোড বন্ধ করে েদয়ে অন্য দিকে stopPropagation() কাজ করে event parent element-এ bubble হওয়া বন্ধ করে দেয়।
